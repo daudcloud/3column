@@ -79,25 +79,17 @@ body {
 
       &.btn-yellow {
         color: var(--clr-first);
-        &:hover {
-          background: var(--clr-first);
-        }
       }
 
       &.btn-blue {
         color: var(--clr-second);
-        &:hover {
-          background: var(--clr-second);
-        }
       }
       &.btn-green {
         color: var(--clr-third);
-        &:hover {
-          background: var(--clr-third);
-        }
       }
       &:hover {
         color: var(--clr-bg);
+        background: transparent;
       }
     }
   }
